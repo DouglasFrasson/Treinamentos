@@ -13,7 +13,7 @@
         const params = new URLSearchParams(window.location.search);
         const idFuncionario = params.get('id');
 
-        const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQG7PR7GEMMwYrlv7PwqqxLpyY2TzHYpA5-vgBNrZWgY60M2LjVvsxNuADCsX87k8e3D63DzGvZcfaU/pubhtml';
+        const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQG7PR7GEMMwYrlv7PwqqxLpyY2TzHYpA5-vgBNrZWgY60M2LjVvsxNuADCsX87k8e3D63DzGvZcfaU/pub?output=xlsx';
 
         async function obterDados() {
             const response = await fetch(url);
